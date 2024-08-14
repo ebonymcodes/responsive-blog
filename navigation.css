@@ -1,0 +1,19 @@
+.navigation {
+    grid-area: nav;
+    background-image: url("../assets/photos/hw.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    background-color: peru;
+    color: white;
+    padding: 5px;
+}
+
+#nav_list li {
+    display: flex;
+    list-style: none;
+    float: left;
+}

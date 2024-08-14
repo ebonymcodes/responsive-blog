@@ -1,0 +1,63 @@
+@import url(navigation.css);
+@import url(sidebar1.css);
+@import url(links.css);
+@import url(postmedia.css);
+
+body {
+    width: 100vw;
+}
+
+.back {
+   float: left;
+   background-color: transparent;
+}
+
+html {
+    background-color: tan;
+}
+
+a:hover {
+    background-color: white;
+    color: peru;
+}
+
+.sidebar1 {
+    grid-area: side1;
+}
+
+.page {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 2px;
+    grid-area: page;
+    border: 2px solid white;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.pfooter, .writer {
+    display: flex;
+    border: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    padding: 5px;
+    grid-area: pfoot;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: smaller;
+    font-style: italic;
+    color: white;
+}
+
+.responsive {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}

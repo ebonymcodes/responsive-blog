@@ -1,0 +1,27 @@
+.sidebar1 {
+    grid-area: side1;
+    float: left;
+    background-color: peru;
+    padding: 5px;
+}
+
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#archive li {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-style: italic;
+    list-style: square;
+}
+
+#old_blogs {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}

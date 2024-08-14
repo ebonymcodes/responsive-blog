@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    background-color: peru;
+    color:white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: white;
+    color: peru;
+}

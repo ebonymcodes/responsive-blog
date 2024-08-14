@@ -1,0 +1,57 @@
+@media only screen and (max-width: 700px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 700px 700px 1fr 700px 50px;
+        grid-template-areas: 
+        "nav"
+        "side1"
+        "feat"
+        "cards"
+        "side2"
+        "foot";
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1170px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: 250px 1fr 1fr 300px 30px;
+        grid-template-areas:
+        "nav nav"
+        "side1 feat"
+        "cards cards"
+        "side2 side2"
+        "foot foot";
+    }
+
+    .recent {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .sidebar1 {
+        display: inline-block;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 1171px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 250px auto 150px;
+        grid-template-rows: 250px 700px 1fr 30px;
+        grid-template-areas:
+        "nav nav nav"
+        "side1 feat side2"
+        "side1 cards side2"
+        "foot foot foot";
+    }
+
+    .recent {
+        display: inline-flex;
+        justify-content: center;
+    }
+}

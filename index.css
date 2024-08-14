@@ -1,0 +1,86 @@
+@import url(media.css);
+@import url(navigation.css);
+@import url(sidebar1.css);
+@import url(links.css);
+
+html {
+    background-color: tan;
+   }
+
+body {
+    width: 100vw;
+}
+
+.content {
+    grid-area: cards;
+    justify-content: center;
+}
+
+.sidebar2 {
+    grid-area: side2;
+    float: right;
+    background-color: peru;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: foot;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.responsive {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid white;
+    /* width: 98%; */
+}
+
+.feat {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid white;
+}
+
+h3 {
+    color: peru;
+}
+
+h2 {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.blogpic {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    display: flex;
+}
